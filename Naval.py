@@ -368,7 +368,7 @@ while contador[0]==1:
             contador[3]=0
         if tabuleiro2[tiroLinhaJ][tiroColunaJ]!=".":
             tabuleiro3[tiroLinhaJ][tiroColunaJ]="X"
-            tabuleiro2[tiroLinhaJ][tiroColunaJ]="."
+            tabuleiro2[tiroLinhaJ][tiroColunaJ]="-"
             Condição[0]=1
             NavioCPU[0]-=1
         elif tabuleiro2[tiroLinhaJ][tiroColunaJ]==".":
